@@ -9,10 +9,10 @@ void setup() {
 }
 
 void loop(){
-    digitalWrite(LED_BUILTIN, HIGH);
-    Serial.println("ON");
-    delay(DELAY);
-    digitalWrite(LED_BUILTIN, LOW);
-    Serial.println("OFF");
-    delay(DELAY);
+  digitalWrite(LED_BUILTIN, HIGH);
+  Serial.println("ON");
+  delay(DELAY);
+  digitalWrite(LED_BUILTIN, LOW);
+  Serial.println("OFF");
+  delay(DELAY);
 }
